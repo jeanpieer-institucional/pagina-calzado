@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zapatillas Urbanas - TRENDSTEP</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <!-- Barra de navegación (similar a deportivas-elegantes.html) -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">
+                <img class="imagen-logo" src="../src/img/logo/logo.png" alt="ASTRA" height="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link active" href="../index.html">Inicio</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="categoriasDropdown" role="button" data-bs-toggle="dropdown">Categorías</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="clasicas.html">Clásicas</a></li>
+                            <li><a class="dropdown-item" href="deportivas-elegantes.html">Deportivas Elegantes</a></li>
+                            <li><a class="dropdown-item" href="urbanas.html">Urbanas</a></li>
+                            <li><a class="dropdown-item" href="premium.html">Premium</a></li>
+                            <li><a class="dropdown-item" href="minimalistas.html">Minimalistas</a></li>
+                            <li><a class="dropdown-item" href="limited-edition.html">Edición Limitada</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#novedades">Novedades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#ofertas">Ofertas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Contacto">Contacto</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../src/pdf/TRENDSTEP_Estructura_Web_Formateada.pdf">Documentación</a></li>
+                </ul>
+                <div class="d-flex">
+                    <a href="../carrito.html" class="btn btn-outline-light me-2 position-relative">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger cart-counter">
+                            0
+                        </span>
+                    </a>
+                    <a href="#login" class="btn btn-outline-light"><i class="fas fa-user"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner de Categoría -->
+    <section class="py-5 bg-success-subtle">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h1>Zapatillas Urbanas</h1>
+                    <p class="lead">Estilo moderno para la vida en la ciudad. Diseños contemporáneos para el día a día.</p>
+                    <a href="../../index.html" class="btn btn-outline-secondary">
+                        <i class="fas fa-arrow-left me-2"></i>Volver al inicio
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Todos los productos de la categoría -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-md-6">
+                    <h2 class="mb-0">Colección Urbana</h2>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <!-- ... mismos controles de ordenamiento ... -->
+                </div>
+            </div>
+            
+            <div class="row">
+                <!-- Producto 1 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100" data-product-id="urbana-1" data-category="urbanas">
+                        <div class="badge bg-success position-absolute" style="top: 10px; right: 10px;">Nuevo</div>
+                        <img src="../src/img/productos/3.urbanas/Street-Style.png" class="card-img-top" alt="Street Style">
+                        <div class="card-body">
+                            <h5 class="card-title">Street Style</h5>
+                            <div class="mb-2">
+                                <span class="text-warning">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                                <span class="text-muted ms-1">5.0 (37)</span>
+                            </div>
+                            <p class="card-text">Diseño urbano con detalles en gamuza y suela gruesa.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="h5 text-primary">$79.99</span>
+                                <button class="btn btn-sm btn-outline-primary">+ Carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Producto 2 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100" data-product-id="urbana-2" data-category="urbanas">
+                        <img src="../src/img/productos/3.urbanas/City-Walker.png" class="card-img-top" alt="City Walker">
+                        <div class="card-body">
+                            <h5 class="card-title">City Walker</h5>
+                            <div class="mb-2">
+                                <span class="text-warning">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </span>
+                                <span class="text-muted ms-1">4.5 (28)</span>
+                            </div>
+                            <p class="card-text">Comodidad para caminar por la ciudad con estilo moderno.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="h5 text-primary">$89.99</span>
+                                <button class="btn btn-sm btn-outline-primary">+ Carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Producto 3 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100" data-product-id="urbana-3" data-category="urbanas">
+                        <div class="badge bg-danger position-absolute" style="top: 10px; right: 10px;">-20%</div>
+                        <img src="../src/img/productos/3.urbanas/Urban-Chic.png" class="card-img-top" alt="Urban Chic">
+                        <div class="card-body">
+                            <h5 class="card-title">Urban Chic</h5>
+                            <div class="mb-2">
+                                <span class="text-warning">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </span>
+                                <span class="text-muted ms-1">4.0 (41)</span>
+                            </div>
+                            <p class="card-text">Elegancia urbana con detalles metálicos y diseño vanguardista.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <span class="h5 text-primary">$71.99</span>
+                                    <small class="text-muted text-decoration-line-through ms-2">$89.99</small>
+                                </div>
+                                <button class="btn btn-sm btn-outline-primary">+ Carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Producto 4 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100" data-product-id="urbana-4" data-category="urbanas">
+                        <img src="../src/img/productos/3.urbanas/Metro-Runner.png" class="card-img-top" alt="Metro Runner">
+                        <div class="card-body">
+                            <h5 class="card-title">Metro Runner</h5>
+                            <div class="mb-2">
+                                <span class="text-warning">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </span>
+                                <span class="text-muted ms-1">4.5 (33)</span>
+                            </div>
+                            <p class="card-text">Diseño ligero para moverse rápido por la ciudad con estilo.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="h5 text-primary">$84.99</span>
+                                <button class="btn btn-sm btn-outline-primary">+ Carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Producto 5 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100" data-product-id="urbana-5" data-category="urbanas">
+                        <div class="badge bg-info position-absolute" style="top: 10px; right: 10px;">Más vendido</div>
+                        <img src="../src/img/productos/3.urbanas/Neo-Classic.png" class="card-img-top" alt="Neo Classic">
+                        <div class="card-body">
+                            <h5 class="card-title">Neo Classic</h5>
+                            <div class="mb-2">
+                                <span class="text-warning">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                                <span class="text-muted ms-1">5.0 (59)</span>
+                            </div>
+                            <p class="card-text">Reinterpretación moderna de un clásico con materiales urbanos.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="h5 text-primary">$94.99</span>
+                                <button class="btn btn-sm btn-outline-primary">+ Carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Producto 6 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100" data-product-id="urbana-6" data-category="urbanas">
+                        <img src="../src/img/productos/3.urbanas/Gravity-Urban.png" class="card-img-top" alt="Gravity Urban">
+                        <div class="card-body">
+                            <h5 class="card-title">Gravity Urban</h5>
+                            <div class="mb-2">
+                                <span class="text-warning">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </span>
+                                <span class="text-muted ms-1">4.0 (27)</span>
+                            </div>
+                            <p class="card-text">Tecnología de amortiguación para el asfalto urbano.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="h5 text-primary">$109.99</span>
+                                <button class="btn btn-sm btn-outline-primary">+ Carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Paginación -->
+            <nav aria-label="Page navigation">
+                <!-- ... misma paginación ... -->
+            </nav>
+        </div>
+    </section>
+
+    <!-- Footer (igual que en deportivas-elegantes.html) -->
+    <footer class="bg-dark text-white py-5">
+        <!-- ... -->
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../src/js/scripts.js"></script>
+</body>
+</html>

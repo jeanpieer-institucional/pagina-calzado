@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deportivas Elegantes - TRENDSTEP</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">
+                <img class="imagen-logo" src="../src/img/logo/logo.png" alt="ASTRA" height="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link active" href="../index.html">Inicio</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="categoriasDropdown" role="button" data-bs-toggle="dropdown">Categorías</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="clasicas.html">Clásicas</a></li>
+                            <li><a class="dropdown-item" href="deportivas-elegantes.html">Deportivas Elegantes</a></li>
+                            <li><a class="dropdown-item" href="urbanas.html">Urbanas</a></li>
+                            <li><a class="dropdown-item" href="premium.html">Premium</a></li>
+                            <li><a class="dropdown-item" href="minimalistas.html">Minimalistas</a></li>
+                            <li><a class="dropdown-item" href="limited-edition.html">Edición Limitada</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#novedades">Novedades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#ofertas">Ofertas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Contacto">Contacto</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../src/pdf/TRENDSTEP_Estructura_Web_Formateada.pdf">Documentación</a></li>
+                </ul>
+                <div class="d-flex">
+                    <a href="../carrito.html" class="btn btn-outline-light me-2 position-relative">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger cart-counter">
+                            0
+                        </span>
+                    </a>
+                    <a href="#login" class="btn btn-outline-light"><i class="fas fa-user"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner de Categoría -->
+    <section class="py-5 bg-success-subtle">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h1>Deportivas Elegantes</h1>
+                    <p class="lead">Comodidad deportiva con un toque de sofisticación. Perfectas para el día a día.</p>
+                    <a href="../../index.html" class="btn btn-outline-secondary">
+                        <i class="fas fa-arrow-left me-2"></i>Volver al inicio
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Todos los productos de la categoría -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-md-6">
+                    <h2 class="mb-0">Colección Deportivas Elegantes</h2>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <div class="dropdown d-inline-block me-2">
+                        <button class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown">
+                            Ordenar por
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Más recientes</a></li>
+                            <li><a class="dropdown-item" href="#">Precio: menor a mayor</a></li>
+                            <li><a class="dropdown-item" href="#">Precio: mayor a menor</a></li>
+                            <li><a class="dropdown-item" href="#">Más populares</a></li>
+                        </ul>
+                    </div>
+                    <div class="btn-group" role="group">
+                        <button type="button" class="btn btn-outline-secondary active"><i class="fas fa-th"></i></button>
+                        <button type="button" class="btn btn-outline-secondary"><i class="fas fa-list"></i></button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <!-- Producto 1 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100" data-product-id="deportiva-1" data-category="deportivas">
+                        <div class="badge bg-success position-absolute" style="top: 10px; right: 10px;">Nuevo</div>
+                        <img src="../src/img/productos/2.deportivas/Run-Elegance.png" class="card-img-top" alt="Run Elegance">
+                        <div class="card-body">
+                            <h5 class="card-title">Run Elegance</h5>
+                            <div class="mb-2">
+                                <span class="text-warning">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </span>
+                                <span class="text-muted ms-1">4.5 (42)</span>
+                            </div>
+                            <p class="card-text">Tecnología deportiva con diseño sofisticado para el día a día.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="h5 text-primary">$89.99</span>
+                                <button class="btn btn-sm btn-outline-primary">+ Carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Producto 2 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100" data-product-id="deportiva-2" data-category="deportivas">
+                        <div class="badge bg-danger position-absolute" style="top: 10px; right: 10px;">-15%</div>
+                        <img src="../src/img/productos/2.deportivas/Sport-Luxe.png" class="card-img-top" alt="Sport Luxe">
+                        <div class="card-body">
+                            <h5 class="card-title">Sport Luxe</h5>
+                            <div class="mb-2">
+                                <span class="text-warning">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </span>
+                                <span class="text-muted ms-1">4.0 (38)</span>
+                            </div>
+                            <p class="card-text">Lujo y comodidad en un diseño deportivo refinado.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <span class="h5 text-primary">$67.99</span>
+                                    <small class="text-muted text-decoration-line-through ms-2">$79.99</small>
+                                </div>
+                                <button class="btn btn-sm btn-outline-primary">+ Carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Producto 3 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100" data-product-id="deportiva-3" data-category="deportivas">
+                        <img src="../src/img/productos/2.deportivas/Flex-Comfort.png" class="card-img-top" alt="Flex Comfort">
+                        <div class="card-body">
+                            <h5 class="card-title">Flex Comfort</h5>
+                            <div class="mb-2">
+                                <span class="text-warning">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                                <span class="text-muted ms-1">5.0 (51)</span>
+                            </div>
+                            <p class="card-text">Amortiguación premium para máxima comodidad en movimiento.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="h5 text-primary">$99.99</span>
+                                <button class="btn btn-sm btn-outline-primary">+ Carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Producto 4 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100" data-product-id="deportiva-4" data-category="deportivas">
+                        <img src="../src/img/productos/2.deportivas/Air-Walk.png" class="card-img-top" alt="Air Walk">
+                        <div class="card-body">
+                            <h5 class="card-title">Air Walk</h5>
+                            <div class="mb-2">
+                                <span class="text-warning">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </span>
+                                <span class="text-muted ms-1">4.5 (47)</span>
+                            </div>
+                            <p class="card-text">Tecnología de aire para una pisada suave y elegante.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="h5 text-primary">$84.99</span>
+                                <button class="btn btn-sm btn-outline-primary">+ Carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Producto 5 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100" data-product-id="deportiva-5" data-category="deportivas">
+                        <div class="badge bg-info position-absolute" style="top: 10px; right: 10px;">Más vendido</div>
+                        <img src="../src/img/productos/2.deportivas/Urban-Trainer.png" class="card-img-top" alt="Urban Trainer">
+                        <div class="card-body">
+                            <h5 class="card-title">Urban Trainer</h5>
+                            <div class="mb-2">
+                                <span class="text-warning">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </span>
+                                <span class="text-muted ms-1">4.0 (63)</span>
+                            </div>
+                            <p class="card-text">Entrenamiento urbano con estilo sofisticado.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="h5 text-primary">$74.99</span>
+                                <button class="btn btn-sm btn-outline-primary">+ Carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Producto 6 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100" data-product-id="deportiva-6" data-category="deportivas">
+                        <img src="../src/img/productos/2.deportivas/image.png" class="card-img-top" alt="Cloud Step">
+                        <div class="card-body">
+                            <h5 class="card-title">Cloud Step</h5>
+                            <div class="mb-2">
+                                <span class="text-warning">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </span>
+                                <span class="text-muted ms-1">4.5 (29)</span>
+                            </div>
+                            <p class="card-text">Sensación de caminar en nubes con estilo elegante.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="h5 text-primary">$109.99</span>
+                                <button class="btn btn-sm btn-outline-primary">+ Carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Paginación -->
+            <nav aria-label="Page navigation">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item disabled">
+                        <a class="page-link" href="#" tabindex="-1">Anterior</a>
+                    </li>
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">Siguiente</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <img src="../../img/logo-white.png" alt="TRENDSTEP" height="40" class="mb-3">
+                    <p>Zapatillas de vestir que combinan elegancia y comodidad para el hombre moderno.</p>
+                    <div class="social-icons">
+                        <a href="#" class="text-white me-2"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5>Categorías</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="../clasicas.html" class="text-white-50">Clásicas</a></li>
+                        <li><a href="../deportivas-elegantes.html" class="text-white">Deportivas Elegantes</a></li>
+                        <li><a href="../urbanas.html" class="text-white-50">Urbanas</a></li>
+                        <li><a href="../premium.html" class="text-white-50">Premium</a></li>
+                        <li><a href="../minimalistas.html" class="text-white-50">Minimalistas</a></li>
+                        <li><a href="../limited-edition.html" class="text-white-50">Edición Limitada</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5>Enlaces</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="../../index.html" class="text-white-50">Inicio</a></li>
+                        <li><a href="../../index.html#novedades" class="text-white-50">Novedades</a></li>
+                        <li><a href="../../index.html#ofertas" class="text-white-50">Ofertas</a></li>
+                        <li><a href="../../index.html#nosotros" class="text-white-50">Nosotros</a></li>
+                        <li><a href="../../index.html#contacto" class="text-white-50">Contacto</a></li>
+                        <li><a href="../../index.html#blog" class="text-white-50">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h5>Contacto</h5>
+                    <address class="text-white-50">
+                        <i class="fas fa-map-marker-alt me-2"></i> Calle Moda 123, Madrid, España<br>
+                        <i class="fas fa-phone me-2"></i> +34 910 123 456<br>
+                        <i class="fas fa-envelope me-2"></i> info@trendstep.com
+                    </address>
+                    <h6>Newsletter</h6>
+                    <form class="mt-3">
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Tu email" required>
+                            <button class="btn btn-primary" type="submit">Suscribir</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <hr class="my-4 bg-secondary">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="small text-white-50 mb-0">&copy; 2023 TRENDSTEP. Todos los derechos reservados.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <a href="#" class="text-white-50 small me-3">Términos y condiciones</a>
+                    <a href="#" class="text-white-50 small me-3">Política de privacidad</a>
+                    <a href="#" class="text-white-50 small">Política de cookies</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../src/js/scripts.js"></script>
+</body>
+</html>

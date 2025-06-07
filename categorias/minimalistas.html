@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zapatillas Minimalistas - TRENDSTEP</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">
+                <img class="imagen-logo" src="../src/img/logo/logo.png" alt="ASTRA" height="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link active" href="../index.html">Inicio</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="categoriasDropdown" role="button" data-bs-toggle="dropdown">Categorías</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="clasicas.html">Clásicas</a></li>
+                            <li><a class="dropdown-item" href="deportivas-elegantes.html">Deportivas Elegantes</a></li>
+                            <li><a class="dropdown-item" href="urbanas.html">Urbanas</a></li>
+                            <li><a class="dropdown-item" href="premium.html">Premium</a></li>
+                            <li><a class="dropdown-item" href="minimalistas.html">Minimalistas</a></li>
+                            <li><a class="dropdown-item" href="limited-edition.html">Edición Limitada</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#novedades">Novedades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#ofertas">Ofertas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Contacto">Contacto</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../src/pdf/TRENDSTEP_Estructura_Web_Formateada.pdf">Documentación</a></li>
+                </ul>
+                <div class="d-flex">
+                    <a href="../carrito.html" class="btn btn-outline-light me-2 position-relative">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger cart-counter">
+                            0
+                        </span>
+                    </a>
+                    <a href="#login" class="btn btn-outline-light"><i class="fas fa-user"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner de Categoría -->
+    <section class="py-5 bg-success-subtle">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h1>Zapatillas Minimalistas</h1>
+                    <p class="lead">Menos es más. Diseños limpios y sofisticados para un estilo discreto pero elegante.</p>
+                    <a href="../../index.html" class="btn btn-outline-secondary">
+                        <i class="fas fa-arrow-left me-2"></i>Volver al inicio
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Todos los productos de la categoría -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-md-6">
+                    <h2 class="mb-0">Colección Minimalista</h2>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <!-- ... mismos controles de ordenamiento ... -->
+                </div>
+            </div>
+            
+            <div class="row">
+                <!-- Producto 1 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100" data-product-id="minimalista-1" data-category="minimalistas">
+                        <img src="../../img/productos/minimalista1.jpg" class="card-img-top" alt="Pure White">
+                        <div class="card-body">
+                            <h5 class="card-title">Pure White</h5>
+                            <div class="mb-2">
+                                <span class="text-warning">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                                <span class="text-muted ms-1">5.0 (53)</span>
+                            </div>
+                            <p class="card-text">Blanco puro sin costuras visibles para un look ultra limpio.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="h5 text-primary">$69.99</span>
+                                <button class="btn btn-sm btn-outline-primary">+ Carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Producto 2 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100" data-product-id="minimalista-2" data-category="minimalistas">
+                        <div class="badge bg-danger position-absolute" style="top: 10px; right: 10px;">-15%</div>
+                        <img src="../../img/productos/minimalista2.jpg" class="card-img-top" alt="Essential Grey">
+                        <div class="card-body">
+                            <h5 class="card-title">Essential Grey</h5>
+                            <div class="mb-2">
+                                <span class="text-warning">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </span>
+                                <span class="text-muted ms-1">4.5 (47)</span>
+                            </div>
+                            <p class="card-text">Tonos grises neutros con diseño sin adornos superfluos.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <span class="h5 text-primary">$59.99</span>
+                                    <small class="text-muted text-decoration-line-through ms-2">$69.99</small>
+                                </div>
+                                <button class="btn btn-sm btn-outline-primary">+ Carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Producto 3 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100" data-product-id="minimalista-3" data-category="minimalistas">
+                        <div class="badge bg-success position-absolute" style="top: 10px; right: 10px;">Nuevo</div>
+                        <img src="../../img/productos/minimalista3.jpg" class="card-img-top" alt="Shadow Black">
+                        <div class="card-body">
+                            <h5 class="card-title">Shadow Black</h5>
+                            <div class="mb-2">
+                                <span class="text-warning">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </span>
+                                <span class="text-muted ms-1">4.0 (39)</span>
+                            </div>
+                            <p class="card-text">Negro mate sin logos ni detalles visibles para máxima discreción.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="h5 text-primary">$74.99</span>
+                                <button class="btn btn-sm btn-outline-primary">+ Carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Producto 4 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100" data-product-id="minimalista-4" data-category="minimalistas">
+                        <img src="../../img/productos/minimalista4.jpg" class="card-img-top" alt="Barefoot Feel">
+                        <div class="card-body">
+                            <h5 class="card-title">Barefoot Feel</h5>
+                            <div class="mb-2">
+                                <span class="text-warning">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                                <span class="text-muted ms-1">5.0 (42)</span>
+                            </div>
+                            <p class="card-text">Diseño ultraligero que simula la sensación de estar descalzo.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="h5 text-primary">$79.99</span>
+                                <button class="btn btn-sm btn-outline-primary">+ Carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Producto 5 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100" data-product-id="minimalista-5" data-category="minimalistas">
+                        <div class="badge bg-info position-absolute" style="top: 10px; right: 10px;">Más vendido</div>
+                        <img src="../../img/productos/minimalista5.jpg" class="card-img-top" alt="Zero Design">
+                        <div class="card-body">
+                            <h5 class="card-title">Zero Design</h5>
+                            <div class="mb-2">
+                                <span class="text-warning">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </span>
+                                <span class="text-muted ms-1">4.5 (68)</span>
+                            </div>
+                            <p class="card-text">Reducción al máximo esencial, solo lo estrictamente necesario.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="h5 text-primary">$64.99</span>
+                                <button class="btn btn-sm btn-outline-primary">+ Carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Producto 6 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100" data-product-id="minimalista-6" data-category="minimalistas">
+                        <img src="../../img/productos/minimalista6.jpg" class="card-img-top" alt="Silent Step">
+                        <div class="card-body">
+                            <h5 class="card-title">Silent Step</h5>
+                            <div class="mb-2">
+                                <span class="text-warning">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </span>
+                                <span class="text-muted ms-1">4.0 (31)</span>
+                            </div>
+                            <p class="card-text">Diseño silencioso y discreto para pasar desapercibido con estilo.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="h5 text-primary">$59.99</span>
+                                <button class="btn btn-sm btn-outline-primary">+ Carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Paginación -->
+            <nav aria-label="Page navigation">
+                <!-- ... misma paginación ... -->
+            </nav>
+        </div>
+    </section>
+
+    <!-- Footer (igual que en deportivas-elegantes.html) -->
+    <footer class="bg-dark text-white py-5">
+        <!-- ... -->
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../src/js/scripts.js"></script>
+</body>
+</html>

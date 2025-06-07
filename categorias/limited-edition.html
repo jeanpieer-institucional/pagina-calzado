@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edición Limitada - TRENDSTEP</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">
+                <img class="imagen-logo" src="../src/img/logo/logo.png" alt="ASTRA" height="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link active" href="../index.html">Inicio</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="categoriasDropdown" role="button" data-bs-toggle="dropdown">Categorías</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="clasicas.html">Clásicas</a></li>
+                            <li><a class="dropdown-item" href="deportivas-elegantes.html">Deportivas Elegantes</a></li>
+                            <li><a class="dropdown-item" href="urbanas.html">Urbanas</a></li>
+                            <li><a class="dropdown-item" href="premium.html">Premium</a></li>
+                            <li><a class="dropdown-item" href="minimalistas.html">Minimalistas</a></li>
+                            <li><a class="dropdown-item" href="limited-edition.html">Edición Limitada</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#novedades">Novedades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#ofertas">Ofertas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Contacto">Contacto</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../src/pdf/TRENDSTEP_Estructura_Web_Formateada.pdf">Documentación</a></li>
+                </ul>
+                <div class="d-flex">
+                    <a href="../carrito.html" class="btn btn-outline-light me-2 position-relative">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger cart-counter">
+                            0
+                        </span>
+                    </a>
+                    <a href="#login" class="btn btn-outline-light"><i class="fas fa-user"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner de Categoría -->
+    <section class="py-5 bg-success-subtle">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h1>Edición Limitada</h1>
+                    <p class="lead">Diseños exclusivos en cantidades limitadas. Piezas únicas para coleccionistas.</p>
+                    <a href="../../index.html" class="btn btn-outline-secondary">
+                        <i class="fas fa-arrow-left me-2"></i>Volver al inicio
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Todos los productos de la categoría -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-md-6">
+                    <h2 class="mb-0">Colección Exclusiva</h2>
+                    <p class="text-muted mb-0">Cantidades limitadas - Solo mientras duren existencias</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <!-- ... mismos controles de ordenamiento ... -->
+                </div>
+            </div>
+            
+            <div class="row">
+                <!-- Producto 1 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100" data-product-id="limited-1" data-category="limited">
+                        <div class="badge bg-danger position-absolute" style="top: 10px; right: 10px;">Últimas unidades</div>
+                        <img src="../../img/productos/limited1.jpg" class="card-img-top" alt="Artist Collab #1">
+                        <div class="card-body">
+                            <h5 class="card-title">Artist Collab #1</h5>
+                            <div class="mb-2">
+                                <span class="text-warning">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                                <span class="text-muted ms-1">5.0 (37)</span>
+                            </div>
+                            <p class="card-text">Colaboración exclusiva con artista urbano. Edición de 500 unidades.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="h5 text-primary">$249.99</span>
+                                <button class="btn btn-sm btn-outline-primary">+ Carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Producto 2 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100" data-product-id="limited-2" data-category="limited">
+                        <div class="badge bg-dark position-absolute" style="top: 10px; right: 10px;">Solo 50</div>
+                        <img src="../../img/productos/limited2.jpg" class="card-img-top" alt="Anniversary Gold">
+                        <div class="card-body">
+                            <h5 class="card-title">Anniversary Gold</h5>
+                            <div class="mb-2">
+                                <span class="text-warning">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </span>
+                                <span class="text-muted ms-1">4.5 (29)</span>
+                            </div>
+                            <p class="card-text">Edición aniversario con hilos de oro 24k. Solo 50 pares mundialmente.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="h5 text-primary">$999.99</span>
+                                <button class="btn btn-sm btn-outline-primary">+ Carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Producto 3 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100" data-product-id="limited-3" data-category="limited">
+                        <div class="badge bg-success position-absolute" style="top: 10px; right: 10px;">Nuevo</div>
+                        <img src="../../img/productos/limited3.jpg" class="card-img-top" alt="Vintage Reload">
+                        <div class="card-body">
+                            <h5 class="card-title">Vintage Reload</h5>
+                            <div class="mb-2">
+                                <span class="text-warning">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </span>
+                                <span class="text-muted ms-1">4.0 (41)</span>
+                            </div>
+                            <p class="card-text">Reedición exacta de modelo clásico de 1985. 1000 unidades.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="h5 text-primary">$299.99</span>
+                                <button class="btn btn-sm btn-outline-primary">+ Carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Producto 4 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100" data-product-id="limited-4" data-category="limited">
+                        <div class="badge bg-info position-absolute" style="top: 10px; right: 10px;">Firmado</div>
+                        <img src="../../img/productos/limited4.jpg" class="card-img-top" alt="Designer Series">
+                        <div class="card-body">
+                            <h5 class="card-title">Designer Series</h5>
+                            <div class="mb-2">
+                                <span class="text-warning">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                                <span class="text-muted ms-1">5.0 (33)</span>
+                            </div>
+                            <p class="card-text">Firmado por el diseñador principal. Edición de 200 pares numerados.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="h5 text-primary">$399.99</span>
+                                <button class="btn btn-sm btn-outline-primary">+ Carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Producto 5 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100" data-product-id="limited-5" data-category="limited">
+                        <div class="badge bg-warning position-absolute" style="top: 10px; right: 10px;">Últimos</div>
+                        <img src="../../img/productos/limited5.jpg" class="card-img-top" alt="Carbon Fiber">
+                        <div class="card-body">
+                            <h5 class="card-title">Carbon Fiber</h5>
+                            <div class="mb-2">
+                                <span class="text-warning">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </span>
+                                <span class="text-muted ms-1">4.5 (47)</span>
+                            </div>
+                            <p class="card-text">Fibra de carbono auténtica. Peso ultraligero. 300 unidades.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="h5 text-primary">$449.99</span>
+                                <button class="btn btn-sm btn-outline-primary">+ Carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Producto 6 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100" data-product-id="limited-6" data-category="limited">
+                        <div class="badge bg-danger position-absolute" style="top: 10px; right: 10px;">Agotándose</div>
+                        <img src="../../img/productos/limited6.jpg" class="card-img-top" alt="Heritage 1950">
+                        <div class="card-body">
+                            <h5 class="card-title">Heritage 1950</h5>
+                            <div class="mb-2">
+                                <span class="text-warning">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </span>
+                                <span class="text-muted ms-1">4.0 (39)</span>
+                            </div>
+                            <p class="card-text">Recreación exacta del primer modelo de la marca. 100 pares.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="h5 text-primary">$599.99</span>
+                                <button class="btn btn-sm btn-outline-primary">+ Carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Paginación -->
+            <nav aria-label="Page navigation">
+                <!-- ... misma paginación ... -->
+            </nav>
+        </div>
+    </section>
+
+    <!-- Footer (igual que en deportivas-elegantes.html) -->
+    <footer class="bg-dark text-white py-5">
+        <!-- ... -->
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../src/js/scripts.js"></script>
+</body>
+</html>
